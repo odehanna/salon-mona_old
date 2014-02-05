@@ -4,3 +4,5 @@
 {% include css/grid.css %}
 {% include css/main.css %}
 {% include css/nav.css %}
+{% include css/normalize.css %}
+{% include css/reset.css %}
