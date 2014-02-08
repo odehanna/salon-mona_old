@@ -1,7 +1,7 @@
 ---
 ---
 
-{% include css/grid.css %}
+{% include css/sequencejs-theme.modern-slide-in.css %}
 {% include css/main.css %}
 {% include css/nav.css %}
 {% include css/normalize.css %}

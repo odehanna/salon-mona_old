@@ -15,8 +15,9 @@
   <meta name="description" content="Salon Mona - Wedding Salon">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 
-  <link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
-  <link href="css/general.css" rel="stylesheet">
+	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+  <link href="/css/general.css" rel="stylesheet">
 </head>
 
 
@@ -24,25 +25,85 @@
 		<div class="headercontent">
 			<header id="header">
 				<div class="logo">
-					<a href="index.html" rel="home"><img scr="img/logo.png" alt="Salon Mona"></a>
+					<a href="index.html" rel="home"><img src="/img/logo.png" alt="Salon Mona"></a>
 				</div>
 
 				<div class='rmm'  data-menu-style = "minimal"  data-menu-title = "MENU">
         <ul>
 
-            <li><a href='#gallery'>NEW Collection</a></li>
-            <li><a href='#blog'>Collection 2013</a></li>
-            <li><a href='#about-me'>About me</a></li>
-            <li><a href='#home'>Home</a></li>
-            <li><a href='#links'>Contact</a></li>
+            <li><a href='/' class="">Home</a></li>
+            <li><a href='#'>NEW Collection</a></li>
+            <li><a href='#'>Collection 2013</a></li>
+            <li><a href='#'>About me</a></li>
+            <li><a href='#'>Contact</a></li>
        </ul>
 </div>
 			</header>
 		</div>
 
+<!-- home slide show -->
+
+		<div class="sequence-theme">
+			<div id="sequence">
+
+				<img class="sequence-prev" src="/img/bt-prev.png" alt="Previous Frame" />
+				<img class="sequence-next" src="/img/bt-next.png" alt="Next Frame" />
+
+				<ul class="sequence-canvas">
+					<li class="animate-in">
+						<h2 class="title">Built using Sequence.js</h2>
+						<h3 class="subtitle">The Responsive Slider with Advanced CSS3 Transitions</h3>
+						<img class="model" src="/img/model1.png" alt="Model 1" />
+					</li>
+					<li>
+						<h2 class="title">Creative Control</h2>
+						<h3 class="subtitle">Create unique sliders using CSS3 transitions</h3>
+						<img class="model" src="/img/model2.png" alt="Model 2" />
+					</li>
+					<li>
+						<h2 class="title">Cutting Edge</h2>
+						<h3 class="subtitle">Supports modern browsers, old browsers (IE7+), touch devices and responsive designs</h3>
+						<img class="model" src="/img/model3.png" alt="Model 3" />
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+
+<!-- FOORER -->
+
+  <footer class="footer">
+			<div class="grid" id="bottom">
+
+				<div class"unit unit-s-1 unit-m-1 unit-l-1-3 gutter-1-3">
+					<div id="content"><a href="#top">Back to the top</a> </div>
+				</div>
+
+
+				<div class"unit unit-s-1 unit-m-1 unit-l-1-3 gutter-1-3">
+						<p class="footer_phone">Salon Mona (+972)-04-9860013</p>
+						<p class="footer_copyright"><small>© 2013 Salon Mona</small></p>
+				</div>
+
+
+			</div>
+
+		</footer>
+
+
 
 
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="js/responsivemobilemenu.js"></script>
+
+<!-- home slide show -->
+		<script>
+		 if (typeof jQuery == 'undefined'){
+		    document.write(unescape('%3Cscript src="scripts/jquery-min.js" %3E%3C/script%3E'));
+		 }
+		</script>
+		<script src="/js/jquery.sequence-min.js"></script>
+		<script src="/js/sequencejs-options.modern-slide-in.js"></script>
 	</body>
 </html>

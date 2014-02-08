@@ -4,7 +4,7 @@ body {
 }
 
 header {
-	background-color: #051d1f;
+	background-color: #25272a;
 }
 
 .logo {
@@ -12,7 +12,7 @@ header {
 	/*min-height: 250px;*/  /* Gives height to the top blue bar */
 	min-height: 180px;
 	padding-top: 1px;
-	padding-bottom: 1px;
+	padding-bottom: 20px;
 
 
 }
@@ -28,6 +28,80 @@ header {
 @media screen and (min-width: 520px) {
 
 	.logo img {
-	width: 160px;
+	width: 190px;
 }
+}
+
+
+/* BOTTOM ------------------------------------------------------------*/
+#bottom {
+	background-color: #25272a;
+  position: relative;
+  min-height: 20px;
+  border-top: 1px solid #25272a;
+}
+
+#bottom #content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+	color: #e8e2cb;
+  font-size: 1.3rem;
+  line-height: 1.5em;
+  clear: both;
+  	-webkit-tap-highlight-color:transparent !important;
+	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
+}
+#bottom #content a {
+  color: #e8e2cb;
+}
+#bottom #content a:hover {
+  text-decoration: underline;
+}
+
+
+
+.footer_copyright{
+	text-align: left;
+	  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+	color: #d8d8d8;
+  font-size: 1rem;
+  line-height: 0.5em;
+  clear: both;
+  	-webkit-tap-highlight-color:transparent !important;
+	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
+}
+
+.footer_phone{
+	text-align: right;
+	padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+	color: #d8d8d8;
+  font-size: 0.8rem;
+  line-height: 0.5em;
+  clear: both;
+  	-webkit-tap-highlight-color:transparent !important;
+	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
+}
+
+.footer_copyright{
+	text-align: center;
+}
+
+
+@media only screen and (min-width: 50rem){
+.footer_copyright{
+	text-align: left;
+	padding-left: 20px;
+}
+
+.footer_phone{
+	text-align: right;
+	padding-right: 20px;
+}
+
+
 }
