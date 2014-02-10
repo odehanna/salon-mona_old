@@ -126,6 +126,11 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	border-bottom:1px solid #dedede;
 	color:#e3dfcd;
 }
+
+#no-line{
+	border-bottom: 0px;
+}
+
 .rmm.minimal .rmm-toggled ul li:first-child a {
 	border-top:1px solid #dedede;
 }

@@ -518,20 +518,18 @@ header {
   color: #e8e2cb;
 }
 #bottom #content a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
 
 .footer_copyright{
-	text-align: left;
 	  padding-top: 5px;
   padding-bottom: 10px;
   text-align: center;
 	color: #d8d8d8;
   font-size: 1rem;
   line-height: 0.5em;
-  clear: both;
   	-webkit-tap-highlight-color:transparent !important;
 	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
 }
@@ -544,7 +542,6 @@ header {
 	color: #d8d8d8;
   font-size: 0.8rem;
   line-height: 0.5em;
-  clear: both;
   	-webkit-tap-highlight-color:transparent !important;
 	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
 
@@ -554,15 +551,17 @@ header {
 	text-align: center;
 }
 
-
+.footer-text{
+  overflow: hidden;
+}
 @media only screen and (min-width: 50rem){
 .footer_copyright{
-	text-align: left;
+  float: left;
 	padding-left: 20px;
 }
 
 .footer_phone{
-	text-align: right;
+	float: right;
 	padding-right: 20px;
 }
 
@@ -1129,6 +1128,11 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	border-bottom:1px solid #dedede;
 	color:#e3dfcd;
 }
+
+#no-line{
+	border-bottom: 0px;
+}
+
 .rmm.minimal .rmm-toggled ul li:first-child a {
 	border-top:1px solid #dedede;
 }
