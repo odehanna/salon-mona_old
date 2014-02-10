@@ -5,7 +5,7 @@ $(document).ready(function(){
         pagination: true,
         animateStartingFrameIn: true,
         autoPlay: true,
-        autoPlayDelay: 3000,
+        autoPlayDelay: 2000,
         preloader: true,
         preloadTheseFrames: [1],
         preloadTheseImages: [
@@ -14,6 +14,6 @@ $(document).ready(function(){
             "images/tn-model3.png"
         ]
     };
-    
+
     var mySequence = $("#sequence").sequence(options).data("sequence");
 });
