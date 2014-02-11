@@ -3,33 +3,407 @@ layout: default
 ---
 
 
-		<div id="fp_gallery" class="fp_gallery">
-			<img src="images/1.jpg" alt="" class="fp_preview" style="display:none;"/>
-			<div class="fp_overlay"></div>
-			<div id="fp_loading" class="fp_loading"></div>
-			<div id="fp_next" class="fp_next"></div>
-			<div id="fp_prev" class="fp_prev"></div>
-			<div id="outer_container">
-				<div id="thumbScroller">
-					<div class="container">
-						<div class="content">
-							<div><a href="#"><img src="{{site.baseurl}}/img_new_col/thumbs/1.jpg" alt="images/1.jpg" class="thumb" /></a></div>
-						</div>
-						<div class="content">
-							<div><a href="#"><img src="{{site.baseurl}}/img_new_col/thumbs/2.jpg" alt="images/2.jpg" class="thumb" /></a></div>
-						</div>
-						<div class="content">
-							<div><a href="#"><img src="{{site.baseurl}}/img_new_col/thumbs/3.jpg" alt="images/3.jpg" class="thumb" /></a></div>
-						</div>
-						<div class="content">
-							<div><a href="#"><img src="{{site.baseurl}}/img_new_col/thumbs/4.jpg" alt="images/4.jpg" class="thumb" /></a></div>
-						</div>
-						<div class="content">
-							<div><a href="#"><img src="{{site.baseurl}}/img_new_col/thumbs/5.jpg" alt="images/5.jpg" class="thumb" /></a></div>
-						</div>
+<div class="demo-wrapper">
 
-					</div>
-				</div>
-			</div>
-			<div id="fp_thumbtoggle" class="fp_thumbtoggle">View Thumbs</div>
-		</div>
+  <!--// Gallery Markup: A container that the plugin is called upon, and two lists for the images (use images with same aspect ratio) //-->
+  <div id="gallery-container">
+
+    <ul class="items--small">
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-1.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-2.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-3.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-4.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-5.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-6.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-7.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-8.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-9.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-10.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-11.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-12.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-13.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-14.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-15.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-16.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-17.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-18.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-19.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-20.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-21.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-22.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-23.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-24.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-25.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-26.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-27.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-28.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-29.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-30.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-31.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-32.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-33.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-34.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-35.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-36.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-37.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-38.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-39.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-40.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-41.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-42.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-43.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-44.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-45.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-46.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-47.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-48.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-49.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-50.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-51.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-52.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-53.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-54.png" alt="" /></a></li>
+      <li class="item"><a href="#"><img src="{{site.baseurl}}/images/small-55.png" alt="" /></a></li>
+    </ul>
+    <ul class="items--big">
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-1.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-2.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-3.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-4.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-5.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-6.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-7.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-8.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-9.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-10.jpg" alt="" />
+          </figure>
+      </li>
+
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-11.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-12.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-13.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-14.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-15.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-16.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-17.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-18.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-19.jpg" alt="" />
+          </figure>
+      </li>
+
+             <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-20.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-121.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-22.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-23.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-24.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-25.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-26.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-27.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-28.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-29.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-30.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-31.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-32.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-33.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-34.jpg" alt="" />
+          </figure>
+      </li>
+
+             <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-35.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-36.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-37.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-38.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-39.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-40.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-41.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-42.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-43.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-44.jpg" alt="" />
+          </figure>
+      </li>
+
+             <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-45.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-46.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-47.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-48.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-49.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-50.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-51.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-52.jpg" alt="" />
+          </figure>
+      </li>
+
+      <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-53.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-54.jpg" alt="" />
+          </figure>
+      </li>
+
+       <li class="item--big">
+          <figure>
+            <img src="{{site.baseurl}}/images/big-55.jpg" alt="" />
+          </figure>
+      </li>
+
+    </ul>
+
+    <div class="controls">
+      <span class="control icon-arrow-left" data-direction="previous"></span>
+      <span class="control icon-arrow-right" data-direction="next"></span>
+      <span class="grid icon-grid"></span>
+      <span class="fs-toggle icon-fullscreen"></span>
+    </div>
+
+  </div>

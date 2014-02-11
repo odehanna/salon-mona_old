@@ -7,3 +7,5 @@
 {% include css/normalize.css %}
 {% include css/reset.css %}
 {% include css/responsivemobilemenu.css %}
+{% include css/demo-styles.css %}
+{% include css/styles.css %}

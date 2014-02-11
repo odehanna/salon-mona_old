@@ -7,6 +7,7 @@
   	"HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<meta name="handheldfriendly" content="true">
  	<meta name="mobileoptimized" content="240">
@@ -32,7 +33,7 @@
         <ul>
 
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/new-collection.html">NEW Collection</a></li>
+            <li><a href="/new-collection">NEW Collection</a></li>
             <li><a href='#'>Collection 2013</a></li>
             <li><a href='#'>About me</a></li>
             <li><a id="no-line" href='#'>Contact</a></li>
@@ -111,5 +112,17 @@
 		</script>
 		<script src="/js/jquery.sequence-min.js"></script>
 		<script src="/js/sequencejs-options.modern-slide-in.js"></script>
+
+<!-- gallery -->
+		<script src="/js/plugins.js"></script>
+				<script src="/js/hammer.js"></script>
+  <script src="/js/scripts.js"></script>
+  <script>
+    $(document).ready(function(){
+     $('#gallery-container').sGallery({
+        fullScreenEnabled: true
+      });
+    });
+  </script>
 	</body>
 </html>
