@@ -19,6 +19,10 @@
 	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 
   <link href="/css/general.css" rel="stylesheet">
+
+   <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/jquery.galereya.ie.css">
+    <![endif]-->
 </head>
 
 <!-- navigation -->
@@ -26,7 +30,7 @@
 		<div class="headercontent">
 			<header id="header">
 				<div class="logo">
-					<a href="index.html" rel="home"><img src="/img/logo.png" alt="Salon Mona"></a>
+					<a href="/" rel="home"><img src="/img/logo.png" alt="Salon Mona"></a>
 				</div>
 
 				<div class='rmm'  data-menu-style = "minimal"  data-menu-title = "MENU">
@@ -102,7 +106,7 @@
 
 
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript" src="js/responsivemobilemenu.js"></script>
+<script type="text/javascript" src="/js/responsivemobilemenu.js"></script>
 
 <!-- home slide show -->
 		<script>
@@ -114,15 +118,19 @@
 		<script src="/js/sequencejs-options.modern-slide-in.js"></script>
 
 <!-- gallery -->
-		<script src="/js/plugins.js"></script>
-				<script src="/js/hammer.js"></script>
-  <script src="/js/scripts.js"></script>
-  <script>
-    $(document).ready(function(){
-     $('#gallery-container').sGallery({
-        fullScreenEnabled: true
-      });
-    });
-  </script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.galereya.min.js"></script>
+    <script>
+        $(function() {
+            $('#galleryherepls').galereya({
+            	spacing: 5,
+            	wave: true,
+            	slideShowSpeed: 5000,
+            	cellFadeInSpeed: 200,
+
+            });
+        });
+    </script>
+
 	</body>
 </html>
