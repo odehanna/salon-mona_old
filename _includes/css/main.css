@@ -7,6 +7,8 @@ header {
 	background-color: #25272a;
 }
 
+
+
 .logo {
 
 	/*min-height: 250px;*/  /* Gives height to the top blue bar */
@@ -135,18 +137,39 @@ list-style-type: disc;
 }
 
 .facebook{
-  margin-bottom: 5rem;
-  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
+.map-small{
+  width: 200px;
+  height: 250px;
+  background-color: #CCC;
+  margin: 0 auto 150px auto;
+}
 
+.map-big{
+  display: none;
+}
 
+@media screen and (min-width: 500px) {
+  .map-small{
+    display: none;
+  }
+
+  .map-big{
+  display: block;
+  width: 400px;
+  height: 250px;
+  background-color: #CCC;
+  margin: 0 auto 150px auto;
+  }
+}
 
 /* BOTTOM ------------------------------------------------------------*/
 #bottom {
 	background-color: #25272a;
-  position: relative;
   min-height: 20px;
   border-top: 1px solid #25272a;
 }
@@ -170,13 +193,9 @@ list-style-type: disc;
 }
 
 .footer{
-position: relative;
-float: left;
-width: 100%;
-bottom: 0;
-z-index: 10;
-padding: 0;
-margin: 0;
+  position: relative;
+  height: 150px;
+  clear:both;}
 
 }
 
@@ -223,4 +242,8 @@ margin: 0;
 }
 
 
+}
+
+.gallery .footer {
+  display: none;
 }
