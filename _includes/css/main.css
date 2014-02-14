@@ -33,6 +33,116 @@ header {
 }
 
 
+
+
+.contact{
+  padding-top: 1rem;
+  margin:0 5px 0 5px;
+  text-align: center;
+  min-height: 100px;
+
+}
+
+.contact h1{
+  font-size: 2rem;
+  padding-bottom: 1.3rem;
+}
+
+.contact h2{
+  font-size: 1.3rem;
+}
+
+.contact p{
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 520px) {
+.contact h1{
+  font-size: 4rem;
+}
+.contact p{
+  font-size: 2.1rem;
+  padding-bottom: 3rem;
+}
+.contact h2{
+  font-size: 2rem;
+}
+}
+
+@media screen and (min-width: 520px) {
+  .contact{
+    padding-top: 5rem;
+
+  }
+}
+
+.contact-links{
+  list-style: none;
+}
+
+}
+
+.contact-links ul{
+  display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+.contact-links li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin: 0 5px 0 5px;
+  line-height: 150%;
+}
+
+
+
+.phone-link{
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 715px) {
+  .phone-link{
+      border-right: 2px solid #fff;
+  }
+  }
+
+@media screen and (min-width: 350px) {
+  .phone-link{
+    font-size: 1.5rem;
+  }
+}
+
+.email-link{
+  padding-left: 45px;
+}
+
+#mail{
+  color:#25272a;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 350px) {
+  #mail{
+  font-size: 1.5rem;
+  }
+}
+
+.facebook{
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+
+
+
 /* BOTTOM ------------------------------------------------------------*/
 #bottom {
 	background-color: #25272a;
