@@ -512,8 +512,57 @@ header {
 }
 }
 
+#about{
+  width:90%;
+  margin: 0 auto 0 auto;
+  font-size: 1.2rem;
+  line-height: 130%;
+}
 
+#about-in{
+  width:90%;
+  margin: 0 auto 0 auto;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 130%;
+}
 
+#about-heb{
+  width:90%;
+  padding-top: 1rem;
+  margin: 0 auto 0 auto;
+  font-size: 1.2rem;
+  line-height: 130%;
+}
+#about-in-heb{
+  width:90%;
+  margin: 0 auto 0 auto;
+  font-size: 1.2rem;
+  line-height: 130%;
+}
+
+@media screen and (min-width: 500px) {
+  #about{
+  width:60%;
+  font-size: 1.8rem;
+}
+#about-in{
+  width:60%;
+  padding-top: 0.5rem;
+  font-size: 1.8rem;
+  line-height: 130%;
+}
+#about-in-heb{
+  width:60%;
+  margin: 0 auto 0 auto;
+  line-height: 130%;
+}
+
+#about-heb{
+    padding-top: 3rem;
+    width:60%;
+  }
+}
 
 .contact{
   padding-top: 1rem;
@@ -530,6 +579,7 @@ header {
 
 .contact h2{
   font-size: 1.3rem;
+  padding-top: 1rem;
 }
 
 .contact p{
@@ -599,13 +649,16 @@ list-style-type: disc;
 }
 
 .email-link{
-  padding-left: 45px;
+  padding-top: 1rem;
 }
 
+
+
 #mail{
+
   color:#25272a;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 @media screen and (min-width: 350px) {
@@ -621,7 +674,7 @@ list-style-type: disc;
 }
 
 .map-small{
-  width: 200px;
+  width: 250px;
   height: 250px;
   background-color: #CCC;
   margin: 0 auto 150px auto;
@@ -703,6 +756,7 @@ list-style-type: disc;
 
 .footer_copyright{
 	text-align: center;
+  color: #fff;
 }
 
 .footer-text{
