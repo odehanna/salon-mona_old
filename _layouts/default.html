@@ -37,12 +37,12 @@
 				<div class='rmm'  data-menu-style = "minimal"  data-menu-title = "MENU">
         <ul>
 
-            <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-            <li><a href="{{site.baseurl}}/new-collection">Collection 1</a></li>
-            <li><a href="{{site.baseurl}}/collection-2013">Collection 2</a></li>
-            <li><a href="{{site.baseurl}}/makeup-hair">Makeup & Hair</a></li>
-            <li><a href="{{site.baseurl}}/about">About me</a></li>
-            <li><a href="{{site.baseurl}}/contact">Contact</a></li>
+            <li><a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
+            <li><a href="{{site.baseurl}}/new-collection" class="{% if page.url == '/new-collection.html' %}current{% endif %}">Collection 1</a></li>
+            <li><a href="{{site.baseurl}}/collection-2013" class="{% if page.url == '/collection-2013.html' %}current{% endif %}">Collection 2</a></li>
+            <li><a href="{{site.baseurl}}/makeup-hair" class="{% if page.url == '/makeup-hair.html' %}current{% endif %}">Makeup & Hair</a></li>
+            <li><a href="{{site.baseurl}}/about" class="{% if page.url == '/about.html' %}current{% endif %}">About me</a></li>
+            <li><a href="{{site.baseurl}}/contact" class="{% if page.url == '/contact.html' %}current{% endif %}">Contact</a></li>
        </ul>
 </div>
 			</header>
@@ -80,8 +80,7 @@
 <script type="text/javascript" src="{{site.baseurl}}/js/responsivemobilemenu.js"></script>
 
 <!-- home slide show -->
-		<script src="{{site.baseurl}}/js/jquery.sequence-min.js"></script>
-		<script src="{{site.baseurl}}/js/sequencejs-options.modern-slide-in.js"></script>
+<script src="{{site.baseurl}}/js/corusel.js"></script>
 
 <!-- gallery -->
     <script src="{{site.baseurl}}/js/jquery.galereya.min.js"></script>

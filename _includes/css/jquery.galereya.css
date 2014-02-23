@@ -38,7 +38,6 @@
     /* Gallery grid(begin) */
     .galereya-grid {
         position: relative;
-        top: 50px;
 
         width: 100%;
         height: 100%;
@@ -50,7 +49,7 @@
             display: none;
             overflow: hidden;
 
-            width: 150px;
+            width: 100%;
             padding: 0 1px; /* Webkit padding on transition fix */
 
             cursor: pointer;

@@ -37,12 +37,12 @@
 				<div class='rmm'  data-menu-style = "minimal"  data-menu-title = "MENU">
         <ul>
 
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/new-collection">Collection 1</a></li>
-            <li><a href="/collection-2013">Collection 2</a></li>
-            <li><a href="/makeup-hair">Makeup & Hair</a></li>
-            <li><a href="/about">About me</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/new-collection" class="">Collection 1</a></li>
+            <li><a href="/collection-2013" class="">Collection 2</a></li>
+            <li><a href="/makeup-hair" class="">Makeup & Hair</a></li>
+            <li><a href="/about" class="">About me</a></li>
+            <li><a href="/contact" class="">Contact</a></li>
        </ul>
 </div>
 			</header>
@@ -51,32 +51,21 @@
 
 <!-- home slide show -->
 
-		<div class="sequence-theme">
-			<div id="sequence">
 
-				<img class="sequence-prev" src="/img/bt-prev.png" alt="Previous Frame" />
-				<img class="sequence-next" src="/img/bt-next.png" alt="Next Frame" />
+				<div class="">
+					<ul class="slider">
+					 <li>
+						<a href="#">
+							<img src="/img/gal1.jpg"/>
+						</a>
+					 </li>
+					 <li>
+					   <img src="/img/gal2.jpg"/>
+					 </li>
+					</ul>
+				</div>
 
-				<ul class="sequence-canvas">
-					<li class="animate-in">
-						<h2 class="title">YOU ARE THE QUEEN</h2>
-						<h3 class="subtitle">WEDDING IS ALL ABOUT YOU AND ONLY YOU</h3>
-						<img class="model" src="/img/model1.png" alt="Model 1" />
-					</li>
-					<li>
-						<h2 class="title">YOUR ABSOLUTE DESIGN</h2>
-						<h3 class="subtitle">WE HELP YOU DREAMS COME TRUE</h3>
-						<img class="model" src="/img/model2.png" alt="Model 2" />
-					</li>
-					<li>
-						<h2 class="title">VIBRANT COLORS</h2>
-						<h3 class="subtitle">SELECT YOUR FAVORITE COLOR</h3>
-						<img class="model" src="/img/model3.png" alt="Model 3" />
-					</li>
-				</ul>
-			</div>
-		</div>
-
+	</div>
 
 
 
@@ -112,8 +101,7 @@
 <script type="text/javascript" src="/js/responsivemobilemenu.js"></script>
 
 <!-- home slide show -->
-		<script src="/js/jquery.sequence-min.js"></script>
-		<script src="/js/sequencejs-options.modern-slide-in.js"></script>
+<script src="/js/corusel.js"></script>
 
 <!-- gallery -->
     <script src="/js/jquery.galereya.min.js"></script>

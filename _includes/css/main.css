@@ -194,30 +194,25 @@ list-style-type: disc;
   margin-top: 2rem;
   text-align: center;
 }
-
-.map-small{
-  width: 250px;
-  height: 250px;
-  background-color: #CCC;
-  margin: 0 auto 150px auto;
-}
-
 .map-big{
-  display: none;
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%);
 }
 
-@media screen and (min-width: 500px) {
-  .map-small{
-    display: none;
-  }
-
-  .map-big{
-  display: block;
-  width: 400px;
-  height: 250px;
-  background-color: #CCC;
-  margin: 0 auto 150px auto;
-  }
+.map-big iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 /* BOTTOM ------------------------------------------------------------*/
