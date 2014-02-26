@@ -70,12 +70,12 @@ header {
 
 .link-facebook-home{
   float: right;
-  padding-right: 10rem;
+  padding-right:5rem;
 }
 
 .facebook-home p{
   text-align: left;
-  padding-left: 30rem;
+  padding-left: 5rem;
 }
 
 #about{
