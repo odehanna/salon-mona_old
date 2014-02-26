@@ -68,6 +68,10 @@ header {
 
 }
 
+.facebook-home{
+  float: right;
+  padding-right: 10rem;
+}
 
 #about{
   width:90%;
