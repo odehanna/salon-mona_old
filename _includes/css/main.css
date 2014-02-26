@@ -51,15 +51,15 @@ header {
   }
   }
 
-#muna-home-big{
+.muna-home-big{
   display: none;
 }
 
 @media screen and (min-width: 700px) {
-  #muna-home-small{
+ .muna-home-small{
     display: none;
   }
-  #muna-home-big{
+ .muna-home-big{
   display: block;
 }
 }
