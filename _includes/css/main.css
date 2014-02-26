@@ -68,9 +68,14 @@ header {
 
 }
 
-.facebook-home{
+.link-facebook-home{
   float: right;
   padding-right: 10rem;
+}
+
+.facebook-home p{
+  text-align: left;
+  padding-left: 30rem;
 }
 
 #about{
