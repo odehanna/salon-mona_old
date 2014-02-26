@@ -60,7 +60,12 @@ header {
 .muna-home-big{
   display:inline-block;
 }
+
+#about-img-big{
+  width: 100%;
   }
+
+}
 
 
 #about{
