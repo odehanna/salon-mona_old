@@ -39,6 +39,9 @@
 .unit-s-1{
 	width: 100%;
 }
+.muna-home-big{
+  display: none;
+}
 
 @media only screen and (min-width: 715px){
   .unit-m-1-2{
@@ -47,11 +50,13 @@
   .unit-l-1-3{
     width:33.33%;
   }
-  #munahome{
-  float: left;
-  width:50%;
-  margin-right: 2rem;
-  margin-top: 1rem;
+
+.muna-home-big{
+  display: block;
 }
+.muna-home-small{
+  display: none;
+}
+
 }
 
