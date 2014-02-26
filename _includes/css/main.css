@@ -48,19 +48,16 @@ header {
  }
 
 @media screen and (min-width: 520px) {
-  #munahome{
-  width: 50%;
-}
+
   #about-img{
+    display: none;
+  }
+
+  .muna-home{
     display: none;
   }
   }
 
-
-
-.left{
-  float: left;
-}
 
 #about{
   width:90%;
