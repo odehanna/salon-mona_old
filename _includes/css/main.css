@@ -53,9 +53,7 @@ header {
 
 @media screen and (min-width: 520px) {
 
-  #about-img{
-    display: none;
-  }
+
   .muna-home{
   display: none;
 }
