@@ -26,9 +26,7 @@ header {
   vertical-align: bottom;
   width: 150px;
 }
-#last{
-  border-bottom: 0px;
-}
+
 
 @media screen and (min-width: 520px) {
 
