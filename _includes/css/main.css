@@ -46,6 +46,9 @@ header {
   #munahome{
   width: 50%;
 }
+  #about-img{
+    display: none;
+  }
   }
 
 #about{
