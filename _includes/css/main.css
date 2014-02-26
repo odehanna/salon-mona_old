@@ -41,6 +41,7 @@ header {
 
 #munahome{
   width: 100%;
+  padding-top: 2rem;
 }
 
  #about-img{
@@ -63,7 +64,6 @@ header {
 
 #about-img-big{
   width: 100%;
-  padding-top: 5rem;
   }
 
 }
