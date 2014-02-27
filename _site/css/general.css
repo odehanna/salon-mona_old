@@ -505,11 +505,59 @@ header {
   width: 150px;
 }
 
+
 @media screen and (min-width: 520px) {
 
 	.logo img {
 	width: 190px;
 }
+}
+
+.muna-home{
+  text-align: center;
+  font-size: 1rem;
+}
+
+#munahome{
+  width: 100%;
+  padding-top: 2rem;
+}
+
+ #about-img{
+  padding-top: 2rem;
+ }
+
+.muna-home-big{
+  display: none;
+}
+
+@media screen and (min-width: 520px) {
+
+
+  .muna-home{
+  display: none;
+}
+.muna-home-big{
+  display:inline-block;
+}
+
+#about-img-big{
+  width: 100%;
+  }
+
+}
+.facebook-home{
+  text-align:  center;
+  padding-top: 3rem;
+}
+
+.link-facebook-home{
+
+}
+
+.facebook-home p{
+
+  font-size: 3rem;
 }
 
 #about{
@@ -1336,7 +1384,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	color:#e3dfcd;
 }
 
-#no-line{
+#no-line a{
 	border-bottom: 0px;
 }
 
@@ -1754,11 +1802,18 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	width: 100%;
 }
 
+
 @media only screen and (min-width: 715px){
-	.unit-m-1-2{
-	width:50%;
-	}
-	}
+  .unit-m-1-2{
+  width:50%;
+  }
+  .unit-l-1-3{
+    width:33.33%;
+  }
+
+
+}
+
 
 .slider {
   width: 100%; /* Update to your slider width */
