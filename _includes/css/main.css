@@ -45,7 +45,7 @@ header {
   padding-top: 2rem;
 }
 
- #about-img{
+.about-img{
   padding-top: 2rem;
  }
 
@@ -63,7 +63,7 @@ header {
   display:inline-block;
 }
 
-#about-img-big{
+.about-img-big{
   width: 100%;
   }
 
