@@ -89,9 +89,7 @@ header {
   line-height: 130%;
 }
 
-.about-img-big{
-  text-align: center;
-}
+
 
 #about-in{
   width:90%;
@@ -116,6 +114,11 @@ header {
 }
 
 @media screen and (min-width: 500px) {
+  .about-img-big img{
+  text-align: center;
+  width: 100%
+}
+
   #about{
   width:60%;
   font-size: 1.8rem;
