@@ -89,6 +89,10 @@ header {
   line-height: 130%;
 }
 
+.about-img-big{
+  text-align: center;
+}
+
 #about-in{
   width:90%;
   margin: 0 auto 0 auto;
