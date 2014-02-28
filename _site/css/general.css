@@ -523,7 +523,7 @@ header {
   padding-top: 2rem;
 }
 
- #about-img{
+.about-img{
   padding-top: 2rem;
  }
 
@@ -541,7 +541,7 @@ header {
   display:inline-block;
 }
 
-#about-img-big{
+.about-img-big{
   width: 100%;
   }
 
@@ -567,6 +567,8 @@ header {
   line-height: 130%;
 }
 
+
+
 #about-in{
   width:90%;
   margin: 0 auto 0 auto;
@@ -590,6 +592,11 @@ header {
 }
 
 @media screen and (min-width: 500px) {
+  .about-img-big img{
+  text-align: center;
+  width: 100%
+}
+
   #about{
   width:60%;
   font-size: 1.8rem;
@@ -765,6 +772,7 @@ height: 100%;
 #bottom #content a:hover {
   text-decoration: none;
 }
+
 
 .footer{
   position: relative;
