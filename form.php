@@ -16,7 +16,5 @@ if ($_POST['submit']) {
     } else { 
         echo '<p>Something went wrong, go back and try again!</p>'; 
     }
-    
-?>
 }
 ?>
