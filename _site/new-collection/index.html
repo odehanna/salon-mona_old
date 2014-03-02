@@ -43,13 +43,15 @@
 					<a href="/" rel="home"><img src="/img/logo.png" alt="Salon Mona"></a>
 				</div>
 
-				<div class='rmm'  data-menu-style = "minimal"  data-menu-title = "MENU">
+				<div class='rmm'  data-menu-style = "minimal"  data-menu-title = "OPEN">
         <ul>
 
             <li><a href="/" class="">Home</a></li>
-            <li><a href="/new-collection" class="current">Collection 1</a></li>
-            <li><a href="/collection-2013" class="">Collection 2</a></li>
+            <li><a href="/new-collection" class="current">Gallery 1</a></li>
+            <li><a href="/collection-2013" class="">Gallery 2</a></li>
+            <li><a href="/collection-2012" class="">Gallery 3</a></li>
             <li><a href="/makeup-hair" class="">Makeup & Hair</a></li>
+            <li><a href="/video" class="">Video</a></li>
             <li><a href="/about" class="">About me</a></li>
             <li id="no-line"><a href="/contact" class="">Contact</a></li>
        </ul>
@@ -204,6 +206,10 @@
         />
 
 
+        <img src="/images/small-25.png"
+            data-fullsrc="/images/big-25.jpg"
+        />
+
 
 
 
@@ -220,7 +226,7 @@
 			<div class="grid" id="bottom">
 
 				<div class="unit unit-s-1 unit-m-1  gutter-1-3">
-					<div id="content"><a href="#top">Back to the top</a> </div>
+					<div id="content"><a href="#top">OPEN</a> </div>
 				</div>
 
 
@@ -255,6 +261,15 @@
             });
         });
     </script>
+
+<!-- contact form -->
+<script language="JavaScript">
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+  "Please enter a valid email address");
+</script>
 
 
 	</body>

@@ -43,13 +43,15 @@
 					<a href="{{site.baseurl}}/" rel="home"><img src="{{site.baseurl}}/img/logo.png" alt="Salon Mona"></a>
 				</div>
 
-				<div class='rmm'  data-menu-style = "minimal"  data-menu-title = "MENU">
+				<div class='rmm'  data-menu-style = "minimal"  data-menu-title = "OPEN">
         <ul>
 
             <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
-            <li><a href="{{site.baseurl}}/new-collection" class="{% if page.url contains 'new-collection' %}current{% endif %}">Collection 1</a></li>
-            <li><a href="{{site.baseurl}}/collection-2013" class="{% if page.url contains 'collection-2013' %}current{% endif %}">Collection 2</a></li>
+            <li><a href="{{site.baseurl}}/new-collection" class="{% if page.url contains 'new-collection' %}current{% endif %}">Gallery 1</a></li>
+            <li><a href="{{site.baseurl}}/collection-2013" class="{% if page.url contains 'collection-2013' %}current{% endif %}">Gallery 2</a></li>
+            <li><a href="{{site.baseurl}}/collection-2012" class="{% if page.url contains 'collection-2012' %}current{% endif %}">Gallery 3</a></li>
             <li><a href="{{site.baseurl}}/makeup-hair" class="{% if page.url contains 'makeup-hair' %}current{% endif %}">Makeup & Hair</a></li>
+            <li><a href="{{site.baseurl}}/video" class="{% if page.url contains 'video' %}current{% endif %}">Video</a></li>
             <li><a href="{{site.baseurl}}/about" class="{% if page.url contains 'about' %}current{% endif %}">About me</a></li>
             <li id="no-line"><a href="{{site.baseurl}}/contact" class="{% if page.url contains 'contact' %}current{% endif %}">Contact</a></li>
        </ul>
@@ -68,7 +70,7 @@
 			<div class="grid" id="bottom">
 
 				<div class="unit unit-s-1 unit-m-1  gutter-1-3">
-					<div id="content"><a href="#top">Back to the top</a> </div>
+					<div id="content"><a href="#top">OPEN</a> </div>
 				</div>
 
 
@@ -103,6 +105,15 @@
             });
         });
     </script>
+
+<!-- contact form -->
+<script language="JavaScript">
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+  "Please enter a valid email address");
+</script>
 
 
 	</body>
