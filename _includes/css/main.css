@@ -1,10 +1,15 @@
 
 body {
-	background-color: #d9d9d9;
+	
+  background-image: url(../img/sprinkles.png);
 }
 
 header {
-	background-color: #25272a;
+
+    background-image: url(../img/header.png);
+    width: 100%;
+
+
 }
 
 
@@ -42,8 +47,10 @@ header {
 
 #munahome{
   width: 100%;
-  padding-top: 2rem;
+  margin-top: 2rem;
+  border: solid 5px #fff;
 }
+
 
 .about-img{
   padding-top: 2rem;
@@ -65,12 +72,15 @@ header {
 
 .about-img-big{
   width: 100%;
+  border-top: solid 5px #fff;
+  border-bottom: solid 5px #fff;
   }
 
 }
 .facebook-home{
   text-align:  center;
   padding-top: 3rem;
+  color: #d68ac1;
 }
 
 .link-facebook-home{
@@ -157,6 +167,7 @@ header {
 .contact h2{
   font-size: 1.3rem;
   padding-top: 1rem;
+  color: #d68ac1;
 }
 
 .contact p{
@@ -215,7 +226,7 @@ list-style-type: disc;
 
 @media screen and (min-width: 715px) {
   .phone-link{
-      border-right: 2px solid #fff;
+      border-right: 2px solid #d68ac1;
   }
   }
 
@@ -226,7 +237,7 @@ list-style-type: disc;
 }
 
 .email-link{
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 
@@ -255,6 +266,8 @@ padding-bottom: 65.25%;
 padding-top: 30px;
 height: 0;
 overflow: hidden;
+border-top: solid 5px #fff;
+border-bottom: solid 5px #fff;
 -webkit-filter: grayscale(100%);
 -moz-filter: grayscale(100%);
 -ms-filter: grayscale(100%);
@@ -272,9 +285,8 @@ height: 100%;
 
 /* BOTTOM ------------------------------------------------------------*/
 #bottom {
-	background-color: #25272a;
+	background-image: url(../img/header.png);
   min-height: 20px;
-  border-top: 1px solid #25272a;
 }
 
 #bottom #content {
@@ -363,7 +375,7 @@ height: 100%;
 
 #form-main{
   width:100%;
-    background-color:rgba(72,72,72,0.4);
+    background-color:rgba(214,134,179,0.4);
 
 }
 
@@ -388,7 +400,7 @@ height: 100%;
 }
 
 .feedback-input {
-  color:#3c3c3c;
+  color:#6f6f6f;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
@@ -408,14 +420,14 @@ height: 100%;
 .feedback-input:focus{
   background: #fff;
   box-shadow: 0;
-  border: 3px solid #25272a;
+  border: 3px solid #df95e2;
   color: #25272a;
   outline: none;
   padding: 13px 13px 13px 54px;
 }
 
 .focused{
-  color:#30aed6;
+  color:#df95e2;
   border:#30aed6 solid 3px;
 }
 
@@ -472,9 +484,9 @@ input:focus, textarea:focus {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   float:left;
   width: 100%;
-  border: #fbfbfb solid 4px;
+  border: #d686b3 solid 4px;
   cursor:pointer;
-  background-color: #25272a;
+  background-color: #d686b3;
   color:white;
   font-size:24px;
   padding-top:22px;
@@ -488,7 +500,7 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
   background-color: rgba(0,0,0,0);
-  color: #25272a;
+  color: #d686b3;
 }
   
 .submit:hover {

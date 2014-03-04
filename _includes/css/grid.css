@@ -40,6 +40,14 @@
 	width: 100%;
 }
 
+#welcome{
+    padding-bottom: 0rem;
+
+}
+#map-gutter{
+  padding-bottom: 0rem;
+}
+
 
 @media only screen and (min-width: 715px){
   .unit-m-1-2{
