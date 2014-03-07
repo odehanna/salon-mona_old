@@ -46,7 +46,7 @@
 				<div class='rmm'  data-menu-style = "minimal"  data-menu-title = "OPEN">
         <ul>
 
-            <li><a href="/" class="current">Home</a></li>
+            <li><a href="/" class="">Home</a></li>
             <li><a href="/new-collection" class="">Gallery 1</a></li>
             <li><a href="/collection-2013" class="">Gallery 2</a></li>
             <li><a href="/collection-2012" class="">Gallery 3</a></li>
@@ -60,101 +60,28 @@
 		</div>
 
 
-<!-- home slide show -->
+<div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1" method="post" action="/form.php" accept-charset="utf-8">
 
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
 
-				<div class="">
-					<ul class="slider">
-						<li>
-					   <img src="/img/gal5.jpg" alt=""/>
-					 </li>
+      <p class="email">
+        <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
 
-					 	<li>
-					   <img src="/img/gal6.jpg" alt=""/>
-					 </li>
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Your Message"></textarea>
+      </p>
 
-					 	<li>
-					   <img src="/img/gal7.jpg" alt=""/>
-					 </li>
-
-					 	<li>
-					   <img src="/img/gal8.jpg" alt=""/>
-					 </li>
-
-					 <li>
-						<a href="#">
-							<img src="/img/gal1.jpg" alt=""/>
-						</a>
-					 </li>
-					 <li>
-					   <img src="/img/gal2.jpg" alt=""/>
-					 </li>
-
-					 <li>
-					   <img src="/img/gal3.jpg" alt=""/>
-					 </li>
-
-					 <li>
-					   <img src="/img/gal4.jpg" alt=""/>
-					 </li>
-					</ul>
-				</div>
-
-
-<div class="muna-home">
-
-	<div class="unit gutter unit-s-1">
-		<img class="about-img" src="/img/decor.png" alt="decoration">
-	</div>
-
-
-	<div class="unit gutter unit-s-1 unit-m-2">
-	<p id="about-heb" dir="rtl" lang="he" >ברוכה הבאה לאתר של סלון מונא
-אם את מחכה לחתונה שלך כל חייך ומתרגשת יותר ויותר ככל שהיום מתקרב –
-הגעת למקום הנכון.
-הצוות המקצועי והניסיון הרב שלנו מאפשרים לנו להעניק לכל כלה את החוויה החד פעמית לה היא מצפה.
-אנחנו בסלון מונא יודעים שחלמת על שמלת הכלה שלך כל חייך ונעשה הכל כדי להגשים את החלום ואולי אף יותר מכך...
-תוכלי להתרשם מהקולקציה החדשה שלנו באתר אך זכרי כי מדובר רק בטעימה מתוך הקולקציה הענקית שלנו ואת מוזמנת לבקר אותנו ולהתרשם מהקולקציה הרחבה והמגוונת – אנו מבטיחים לך שהביקור בסלון מונא הוא חוויה שחבל לוותר עליה.
-</p>
-<p id="about-in-heb" dir="rtl" lang="he">מזל טוב ושפע ברכות ומי ייתן וכל חלומותייך יתגשמו</p>
-
-
-</div>
-
-
-	<div  class="unit gutter unit-s-1">
-		<img class="about-img" src="/img/decor.png" alt="decoration">
-</div>
-
-
-
-</div>
-
-<div class="muna-home-big">
-		<div class="unit gutter unit-s-1">
-		<div class="facebook-home">
-				<P>FOLLOW ME ON FACEBOOK</P>
-			<ul>
-				<li class="link-facebook-home">
-					<a href="https://www.facebook.com/pages/Salon-Mona/441675602570163"><img src="/img/facebook.png" alt="facebook link"></a>
-				</li>
-			</ul>
-		</div>
-		</div>
-
-	<div id="welcome"  class="unit gutter unit-s-1">
-			<p id="about-heb" dir="rtl" lang="he" >ברוכה הבאה לאתר של סלון מונא
-אם את מחכה לחתונה שלך כל חייך ומתרגשת יותר ויותר ככל שהיום מתקרב –
-הגעת למקום הנכון.
-הצוות המקצועי והניסיון הרב שלנו מאפשרים לנו להעניק לכל כלה את החוויה החד פעמית לה היא מצפה.
-אנחנו בסלון מונא יודעים שחלמת על שמלת הכלה שלך כל חייך ונעשה הכל כדי להגשים את החלום ואולי אף יותר מכך...
-תוכלי להתרשם מהקולקציה החדשה שלנו באתר אך זכרי כי מדובר רק בטעימה מתוך הקולקציה הענקית שלנו ואת מוזמנת לבקר אותנו ולהתרשם מהקולקציה הרחבה והמגוונת – אנו מבטיחים לך שהביקור בסלון מונא הוא חוויה שחבל לוותר עליה.
-</p>
-	</div>
-</div>
-
-
-
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
 
 
 <!-- FOORER -->

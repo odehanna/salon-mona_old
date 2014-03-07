@@ -569,7 +569,7 @@ input:focus, textarea:focus {
 
 
 /* slide big screen ---------------------------------- */
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 900px){
   .fluid_container{
     display: none;
   }
