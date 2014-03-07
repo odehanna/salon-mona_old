@@ -2341,7 +2341,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
             background-image: url('../img/galereya-play.jpg');
         }
         .galereya-slider-play.pause {
-            background-image: url('../img/galereya-pause.jpg');
+            background-image: url('../img/galereya-pause.png');
         }
 
         .galereya-slider-container {
@@ -2363,7 +2363,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 
                 text-align: center;
 
-                  background-image: url(../img/sprinkles.jpg);
+                  background-image: url(../img/sprinkles.png);
                 
 
                 -webkit-box-shadow: 0px 0px 20px 4px #000;
@@ -2411,22 +2411,22 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi){
     .galereya-slider-close {
-        background-image: url('../img/galereya-close@2x.jpg');
+        background-image: url('../img/galereya-close@2x.png');
     }
 
     .galereya-slider-play {
-        background-image: url('../img/galereya-play@2x.jpg');
+        background-image: url('../img/galereya-play@2x.png');
     }
 
     .galereya-slider-play.pause {
-        background-image: url('../img/galereya-pause@2x.jpg');
+        background-image: url('../img/galereya-pause@2x.png');
     }
 
-    .galereya-slider-nav.left { background-image: url(../img/galereya-arrow_prev@2x.jpg); }
-    .galereya-slider-nav.right { background-image: url(../img/galereya-arrow_next@2x.jpg); }
+    .galereya-slider-nav.left { background-image: url(../img/galereya-arrow_prev@2x.png); }
+    .galereya-slider-nav.right { background-image: url(../img/galereya-arrow_next@2x.png); }
 
     .galereya-slider-slide {
-        background-image: url('../img/black_lozenge_@2X.jpg');
+        background-image: url('../img/black_lozenge_@2X.png');
     }
 }
 
