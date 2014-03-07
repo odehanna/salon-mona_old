@@ -80,7 +80,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 /* MINIMAL STYLE */
 
 .rmm.minimal a {
-	color:#e3dfcd;
+	color:#331709;
 }
 .rmm.minimal a:hover {
 	opacity:0.7;
@@ -98,7 +98,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 .rmm.minimal .rmm-toggled-controls {
 	display:block;
 	height:36px;
-	color:#e3dfcd;
+	color:#331709;
 	text-align:left;
 	position:relative;
 }

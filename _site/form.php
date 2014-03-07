@@ -10,7 +10,8 @@
 
 if ($_POST['submit']) {
            if (mail ($to, $subject, $body, $from)) {
-           echo '<p>Message Sent Successfully!</p>';
+            header('Location: /thank-you/');
+            exit;
            } else {
            echo '<p>Ah! Try again, please?</p>';
            }

@@ -1,5 +1,9 @@
 /* Gallery (begin) */
 
+/* big screen gallery---------------------------------- */
+
+
+
 
 .galereya {
     position: relative;
@@ -160,8 +164,8 @@
             transition: opacity .3s ease-out;
         }
 
-        .galereya-slider-nav.left { left: 0; background-image: url(../img/galereya-arrow_prev.png); }
-        .galereya-slider-nav.right { right: 0; background-image: url(../img/galereya-arrow_next.png); }
+        .galereya-slider-nav.left { left: 0; background-image: url(../img/galereya-arrow_prev.jpg); }
+        .galereya-slider-nav.right { right: 0; background-image: url(../img/galereya-arrow_next.jpg); }
 
         .galereya-slider-nav:active {
             opacity: 0.15;
@@ -202,16 +206,16 @@
             top: 0;
             left: 0;
 
-            background-image: url('../img/galereya-close.png')
+            background-image: url('../img/galereya-close.jpg')
         }
         .galereya-slider-play {
             top: 0;
             right: 0;
 
-            background-image: url('../img/galereya-play.png');
+            background-image: url('../img/galereya-play.jpg');
         }
         .galereya-slider-play.pause {
-            background-image: url('../img/galereya-pause.png');
+            background-image: url('../img/galereya-pause.jpg');
         }
 
         .galereya-slider-container {
@@ -233,7 +237,7 @@
 
                 text-align: center;
 
-                  background-image: url(../img/sprinkles.png);
+                  background-image: url(../img/sprinkles.jpg);
                 
 
                 -webkit-box-shadow: 0px 0px 20px 4px #000;
@@ -281,22 +285,22 @@
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi){
     .galereya-slider-close {
-        background-image: url('../img/galereya-close@2x.png');
+        background-image: url('../img/galereya-close@2x.jpg');
     }
 
     .galereya-slider-play {
-        background-image: url('../img/galereya-play@2x.png');
+        background-image: url('../img/galereya-play@2x.jpg');
     }
 
     .galereya-slider-play.pause {
-        background-image: url('../img/galereya-pause@2x.png');
+        background-image: url('../img/galereya-pause@2x.jpg');
     }
 
-    .galereya-slider-nav.left { background-image: url(../img/galereya-arrow_prev@2x.png); }
-    .galereya-slider-nav.right { background-image: url(../img/galereya-arrow_next@2x.png); }
+    .galereya-slider-nav.left { background-image: url(../img/galereya-arrow_prev@2x.jpg); }
+    .galereya-slider-nav.right { background-image: url(../img/galereya-arrow_next@2x.jpg); }
 
     .galereya-slider-slide {
-        background-image: url('../img/black_lozenge_@2X.png');
+        background-image: url('../img/black_lozenge_@2X.jpg');
     }
 }
 

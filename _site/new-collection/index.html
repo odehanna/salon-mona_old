@@ -216,6 +216,70 @@
 </div>
 </div>
 
+<div id="back_to_camera">
+    <div class="fluid_container">
+        <div class="camera_wrap camera_white_skin" id="camera_wrap_2">
+
+        <div data-thumb="/images/small-1.png" data-src="/images/big-1.jpg"></div>
+
+        <div data-thumb="/images/small-2.png" data-src="/images/big-2.jpg"></div>
+
+        <div data-thumb="/images/small-3.png" data-src="/images/big-3.jpg"></div>
+
+        <div data-thumb="/images/small-4.png" data-src="/images/big-4.jpg"></div>
+
+        <div data-thumb="/images/small-5.png" data-src="/images/big-5.jpg"></div>
+
+        <div data-thumb="/images/small-6.png" data-src="/images/big-6.jpg"></div>
+
+        <div data-thumb="/images/small-7.png" data-src="/images/big-7.jpg"></div>
+
+        <div data-thumb="/images/small-8.png" data-src="/images/big-8.jpg"></div>
+
+        <div data-thumb="/images/small-9.png" data-src="/images/big-9.jpg"></div>
+
+        <div data-thumb="/images/small-10.png" data-src="/images/big-10.jpg"></div>
+
+        <div data-thumb="/images/small-11.png" data-src="/images/big-11.jpg"></div>
+
+        <div data-thumb="/images/small-12.png" data-src="/images/big-12.jpg"></div>
+
+        <div data-thumb="/images/small-13.png" data-src="/images/big-13.jpg"></div>
+
+        <div data-thumb="/images/small-14.png" data-src="/images/big-14.jpg"></div>
+
+        <div data-thumb="/images/small-15.png" data-src="/images/big-15.jpg"></div>
+
+        <div data-thumb="/images/small-16.png" data-src="/images/big-16.jpg"></div>
+
+        <div data-thumb="/images/small-17.png" data-src="/images/big-17.jpg"></div>
+
+        <div data-thumb="/images/small-18.png" data-src="/images/big-18.jpg"></div>
+
+        <div data-thumb="/images/small-19.png" data-src="/images/big-19.jpg"></div>
+
+        <div data-thumb="/images/small-20.png" data-src="/images/big-20.jpg"></div>
+
+        <div data-thumb="/images/small-21.png" data-src="/images/big-2.jpg"></div>
+
+        <div data-thumb="/images/small-22.png" data-src="/images/big-22.jpg"></div>
+
+        <div data-thumb="/images/small-23.png" data-src="/images/big-23.jpg"></div>
+
+        <div data-thumb="/images/small-24.png" data-src="/images/big-24.jpg"></div>
+
+        <div data-thumb="/images/small-25.png" data-src="/images/big-25.jpg"></div>
+
+
+
+
+
+
+        </div><!-- #camera_wrap_2 -->
+    </div><!-- .fluid_container -->
+     <div style="clear:both; display:block; height:100px"></div>
+    </div>
+
 
 
 
@@ -271,6 +335,28 @@ frmvalidator.addValidation("email","email",
   "Please enter a valid email address");
 </script>
 
+
+
+<!-- big screen slider -->
+    <script type='text/javascript' src='/js/jquery.min.js'></script>
+    <script type='text/javascript' src='/js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='/js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='/js/camera.min.js'></script> 
+    
+    <script>
+    jQuery(function(){
+
+
+      jQuery('#camera_wrap_2').camera({
+        height: '709px',
+        loader: 'bar',
+        pagination: false,
+        thumbnails: true
+      });
+    });
+  </script>
+ 
+ 
 
 	</body>
 </html>
