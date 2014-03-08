@@ -35,6 +35,16 @@
     <![endif]-->
 </head>
 
+<div class="music">
+  <audio autoplay loop id="myTune" controls hidden="true">
+      <source src="{{site.baseurl}}/music.mp3">
+  </audio
+ 
+  <div class ="music-but">
+    <button id="playButton" onclick="document.getElementById('myTune').play()"><img src="{{site.baseurl}}/img/play.png"></button>
+    <button id="stopButton" onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;"><img src="{{site.baseurl}}/img/pause.png"></button>
+  </div>
+</div>
 <!-- navigation -->
 	<body id="top" class="{{page.cssclass}}">
 		<div class="headercontent">
@@ -56,6 +66,8 @@
             <li id="no-line"><a href="{{site.baseurl}}/contact" class="{% if page.url contains 'contact' %}current{% endif %}">Contact</a></li>
        </ul>
 </div>
+
+
 			</header>
 		</div>
 

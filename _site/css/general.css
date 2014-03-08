@@ -490,7 +490,16 @@ header {
 
 }
 
+/* MUSIC------------------------------------------------------------*/
+@media screen and (max-width: 700px) {
+  .music{
+    display: none;
+  }
+}
 
+.music{
+  background: #d180b0;
+}
 
 .logo {
 
@@ -1559,6 +1568,49 @@ input:focus, textarea:focus {
 	background:rgba(240, 235, 222,0.2);;
 }
 
+
+#playButton,
+#stopButton{
+	padding-top: 10px;
+}
+
+#playButton img,
+#stopButton img{
+	border: 0 none;
+}
+
+#playButton,
+#stopButton {
+  	border: none;
+}
+
+#playButton{
+padding-left: 20px;
+}
+
+#playButton:hover,
+#stopButton:hover{
+    border: none;
+    text-decoration: none;
+       outline: none;
+}
+
+button #playButton:active,
+button #stopButton:active,
+button #myTune:active{
+   border: none;
+
+
+}
+
+button #playButton:focus,
+button #stopButton:focus {
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+button { background: none transparent; border: none;    outline: none;}
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 
 /* ==========================================================================
@@ -2006,7 +2058,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	padding:0px;
 	margin:0 auto !important;
 	text-align: center;
-	line-height:19px !important;
+	line-height:25px !important;
 }
 .rmm * {
 	-webkit-tap-highlight-color:transparent !important;
@@ -2094,7 +2146,7 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 .rmm.minimal .rmm-toggled-title {
 	position:relative;
 	text-align: center;
-	font-size:16px;
+	font-size:20px;
 	color:#fff;
 }
 .rmm.minimal .rmm-button {

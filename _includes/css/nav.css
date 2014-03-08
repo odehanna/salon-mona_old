@@ -1,3 +1,47 @@
 .current{
 	background:rgba(240, 235, 222,0.2);;
 }
+
+
+#playButton,
+#stopButton{
+	padding-top: 10px;
+}
+
+#playButton img,
+#stopButton img{
+	border: 0 none;
+}
+
+#playButton,
+#stopButton {
+  	border: none;
+}
+
+#playButton{
+padding-left: 20px;
+}
+
+#playButton:hover,
+#stopButton:hover{
+    border: none;
+    text-decoration: none;
+       outline: none;
+}
+
+button #playButton:active,
+button #stopButton:active,
+button #myTune:active{
+   border: none;
+
+
+}
+
+button #playButton:focus,
+button #stopButton:focus {
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+button { background: none transparent; border: none;    outline: none;}
