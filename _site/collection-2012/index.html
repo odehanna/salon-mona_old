@@ -35,16 +35,25 @@
     <![endif]-->
 </head>
 
+
 <div class="music">
+
   <audio autoplay loop id="myTune" controls hidden="true">
       <source src="/music.mp3">
   </audio
  
   <div class ="music-but">
-    <button id="playButton" onclick="document.getElementById('myTune').play()"><img src="/img/play.png"></button>
-    <button id="stopButton" onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;"><img src="/img/pause.png"></button>
-  </div>
+
+    <button id="playButton" onclick="document.getElementById('myTune').play()"><img src="/img/play.png" alt="play"></button>
+
+    <button id="stopButton" onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;"><img src="/img/pause.png" alt="pause"></button>
+ 
+ </div>
+
 </div>
+
+
+
 <!-- navigation -->
 	<body id="top" class="gallery">
 		<div class="headercontent">
