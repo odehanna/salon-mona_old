@@ -52,18 +52,13 @@ header {
 .muna-home{
   text-align: center;
   font-size: 1rem;
-}
-
-#munahome{
-  width: 100%;
-  margin-top: 2rem;
-  border: solid 5px #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 
-.about-img{
-  padding-top: 2rem;
- }
+
+
 
 .muna-home-big{
   display: none;
@@ -72,7 +67,7 @@ header {
 @media screen and (min-width: 520px) {
 
 
-  .muna-home{
+.muna-home{
   display: none;
 }
 .muna-home-big{
@@ -138,6 +133,15 @@ header {
   font-size: 1.2rem;
   line-height: 130%;
 }
+
+#about-heb-small{
+  width:60%;
+  padding-top: 1rem;
+  margin: 0 auto 0 auto;
+  font-size: 1.2rem;
+  line-height: 130%;
+}
+
 #about-in-heb{
   width:90%;
   margin: 0 auto 0 auto;
