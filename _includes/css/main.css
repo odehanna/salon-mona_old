@@ -80,20 +80,22 @@ header {
   border-bottom: solid 5px #fff;
   }
 
-#thank-you{
-  color: #d68ac1;
 }
 
-
-@media screen and (min-width: 500px) {
-#thank{
-  font-size: 4rem;
+#thank {
+  font-size: 2rem;
   text-align: center;
   color: #d68ac1;
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
+
+@media screen and (min-width: 500px) {
+#thank{
+  font-size: 4rem;
 }
+}
+
 .facebook-home{
   text-align:  center;
   padding-top: 3rem;
@@ -225,8 +227,6 @@ header {
   list-style: none;
 }
 
-}
-
 .contact-links ul{
   display: block;
 list-style-type: disc;
@@ -324,7 +324,7 @@ height: 100%;
   line-height: 1.5em;
   clear: both;
   	-webkit-tap-highlight-color:transparent !important;
-	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
+	font-family: 'Open Sans', sans-serif; font-weight: 300;
 }
 #bottom #content a {
   color: #e8e2cb;
@@ -337,7 +337,7 @@ height: 100%;
 .footer{
   position: relative;
   height: 50px;
-  clear:both;}
+  clear:both;
 
 }
 
@@ -349,7 +349,7 @@ height: 100%;
   font-size: 1rem;
   line-height: 0.5em;
   	-webkit-tap-highlight-color:transparent !important;
-	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
+	font-family: 'Open Sans', sans-serif; font-weight: 300;
 }
 
 .footer_phone{
@@ -361,7 +361,7 @@ height: 100%;
   font-size: 0.8rem;
   line-height: 0.5em;
   	-webkit-tap-highlight-color:transparent !important;
-	font-family: ‘Open Sans’, sans-serif; font-weight: 300;
+	font-family: 'Open Sans', sans-serif; font-weight: 300;
 
 }
 
@@ -390,10 +390,6 @@ height: 100%;
 .gallery .footer {
   display: none;
 }
-
-/* FORM ---------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 
 #feedback-page{
   text-align:center;
