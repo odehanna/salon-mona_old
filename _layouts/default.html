@@ -34,11 +34,13 @@
     <link rel="stylesheet" href="css/jquery.galereya.ie.css">
     <![endif]-->
 </head>
+<body id="top" class="{{page.cssclass}}">
+
 
 <!-- music -->
 <div class="music">
 
-  <audio autoplay loop id="myTune" controls hidden="true">
+  <audio autoplay loop id="myTune" controls hidden>
       <source src="{{site.baseurl}}/music.mp3">
   </audio>
  
@@ -52,10 +54,8 @@
 
 </div>
 
-
-
 <!-- navigation -->
-	<body id="top" class="{{page.cssclass}}">
+
 		<div class="headercontent">
 			<header id="header">
 				<div class="logo">
