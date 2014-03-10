@@ -7,8 +7,8 @@ ini_set('display_errors', 'on');
     $email = $_POST['email'];
     $text = $_POST['text'];
     $from = "From: $name <$email>"; 
-    $to = 'odeh.anna@gmail.com'; 
-    $subject = 'Hello';
+    $to = 'salon_mona@hotmail.com'; 
+    $subject = 'הודעה מאתר';
 
     $body = "From: $name\n E-Mail: $email\n Message:\n $text";
 /*
