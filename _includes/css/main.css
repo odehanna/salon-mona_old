@@ -13,11 +13,7 @@ header {
 }
 
 /* MUSIC------------------------------------------------------------*/
-@media screen and (max-width: 700px) {
-  .music{
-    display: none;
-  }
-}
+
 
 .music{
   background: #d180b0;
