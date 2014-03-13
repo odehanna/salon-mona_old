@@ -497,6 +497,10 @@ header {
   background: #d180b0;
 }
 
+[hidden] {
+  display: none;
+}
+
 .logo {
 
 	/*min-height: 250px;*/  /* Gives height to the top blue bar */
